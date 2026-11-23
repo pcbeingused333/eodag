@@ -3,6 +3,66 @@ Release history
 ===============
 
 
+v4.12.0 (2026-11-23)
+====================
+
+Bug Fixes
+---------
+
+* **search**: Honor raise_errors during search preparation (`#2465`_, `7165244`_)
+
+Build System
+------------
+
+* Add python 3.15 support (`#2464`_, `98a340b`_)
+
+Continuous Integration
+----------------------
+
+* Remove incompatible tox-gh-actions plugin (`#2458`_, `d1964ad`_)
+
+Features
+--------
+
+* **core**: Accept python-style names in search sort_by (`#2463`_, `6ced4b9`_)
+
+* **search**: Add retryable single-page fetching (`#2466`_, `1ca807f`_)
+
+Refactoring
+-----------
+
+* Reduce provider configuration debug logs (`#2460`_, `0a9fee4`_)
+
+* **collections**: Update sentinel-5 metadata_mapping for wekeo_main (`#2457`_, `2f58365`_)
+
+* **providers**: Optimized creodias search by id (`#2467`_, `907ff48`_)
+
+* **providers**: Optimized creodias search by id (`#2462`_, `43e20f9`_)
+
+* **providers**: Update GHS_UCDB download links (`#2459`_, `4aeb1ce`_)
+
+.. _#2457: https://github.com/CS-SI/eodag/pull/2457
+.. _#2458: https://github.com/CS-SI/eodag/pull/2458
+.. _#2459: https://github.com/CS-SI/eodag/pull/2459
+.. _#2460: https://github.com/CS-SI/eodag/pull/2460
+.. _#2462: https://github.com/CS-SI/eodag/pull/2462
+.. _#2463: https://github.com/CS-SI/eodag/pull/2463
+.. _#2464: https://github.com/CS-SI/eodag/pull/2464
+.. _#2465: https://github.com/CS-SI/eodag/pull/2465
+.. _#2466: https://github.com/CS-SI/eodag/pull/2466
+.. _#2467: https://github.com/CS-SI/eodag/pull/2467
+.. _0a9fee4: https://github.com/CS-SI/eodag/commit/0a9fee428e10c60b5dd132a439df20bddffdd653
+.. _1ca807f: https://github.com/CS-SI/eodag/commit/1ca807fd0cc62c33046b69f4ee8bfab752ddf93f
+.. _2f58365: https://github.com/CS-SI/eodag/commit/2f58365b6fddfd9564907367743108859789e335
+.. _43e20f9: https://github.com/CS-SI/eodag/commit/43e20f941bd1538fb2dcdff2c2443273c71031fd
+.. _4aeb1ce: https://github.com/CS-SI/eodag/commit/4aeb1ce2c8700d0635ec75af10ca3a4f48fc35f9
+.. _6ced4b9: https://github.com/CS-SI/eodag/commit/6ced4b93163b4ba6deb5123a692637889fcb7eb7
+.. _7165244: https://github.com/CS-SI/eodag/commit/7165244a026897064e2234cf96ca41ec5e5e3f08
+.. _907ff48: https://github.com/CS-SI/eodag/commit/907ff48dca0bee517faa821880b97c09e2899d2a
+.. _98a340b: https://github.com/CS-SI/eodag/commit/98a340b1778413ce0668807ccf2bc1a5e9ed2b6c
+.. _d1964ad: https://github.com/CS-SI/eodag/commit/d1964adef2885928dde72b1f55d173fb8a9ff050
+
+
 v4.11.0 (2026-11-16)
 ====================
 
